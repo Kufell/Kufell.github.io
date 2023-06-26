@@ -1,14 +1,27 @@
 function toggleLanguage(lang) {
+    var toggleEn = document.getElementById('toggle-en');
+    var togglePl = document.getElementById('toggle-pl');
+    var textEn = document.getElementById('text-en');
+    var textPl = document.getElementById('text-pl');
+  
     if (lang === 'en') {
-      document.getElementById('toggle-en').classList.add('active');
-      document.getElementById('toggle-pl').classList.remove('active');
-      document.getElementById('text-en').style.display = 'block';
-      document.getElementById('text-pl').style.display = 'none';
+      toggleEn.classList.add('active');
+      togglePl.classList.remove('active');
+      if (textEn) {
+        textEn.style.display = 'block';
+      }
+      if (textPl) {
+        textPl.style.display = 'none';
+      }
     } else if (lang === 'pl') {
-      document.getElementById('toggle-pl').classList.add('active');
-      document.getElementById('toggle-en').classList.remove('active');
-      document.getElementById('text-pl').style.display = 'block';
-      document.getElementById('text-en').style.display = 'none';
+      togglePl.classList.add('active');
+      toggleEn.classList.remove('active');
+      if (textPl) {
+        textPl.style.display = 'block';
+      }
+      if (textEn) {
+        textEn.style.display = 'none';
+      }
     }
   }
   console.log("amfa");
