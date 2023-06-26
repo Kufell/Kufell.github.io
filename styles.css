@@ -126,3 +126,28 @@ body {
   footer p {
     color: #777;
   }
+
+  .toggle-languages {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+  }
+  
+  .toggle-languages button {
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 10px;
+    transition: color 0.3s ease;
+  }
+  
+  .toggle-languages button.active {
+    color: #0ff;
+  }
+  
+  .toggle-languages button:hover {
+    color: #0ff;
+  }
