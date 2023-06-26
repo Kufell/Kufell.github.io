@@ -23,6 +23,7 @@ function toggleLanguage(lang) {
         textEn.style.display = 'none';
       }
     }
+    console.log(lang);
   }
   console.log("amfa");
   toggleLanguage('en');
