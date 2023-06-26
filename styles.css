@@ -184,13 +184,6 @@ body {
     box-shadow: 0 0 10px #00ff00;
   }
   
-  .image-resolution {
-    position: relative;
-    display: inline-block;
-    outline: 2px solid #00ff00;
-    outline-offset: -2px;
-  }
-  
   .image-resolution img {
     display: block;
     width: 300px;
