@@ -32,6 +32,20 @@ function toggleLanguage(lang) {
   
   // Execute toggleLanguage function on page load to set the initial language
   toggleLanguage('en');
+
+  function showFullImage(src) {
+    var fullImageOverlay = document.getElementById('full-image-overlay');
+    var fullImage = document.getElementById('full-image');
+  
+    fullImage.src = src;
+    fullImageOverlay.style.display = 'flex';
+  }
+  
+  function hideFullImage() {
+    var fullImageOverlay = document.getElementById('full-image-overlay');
+  
+    fullImageOverlay.style.display = 'none';
+  }
   
   
   
