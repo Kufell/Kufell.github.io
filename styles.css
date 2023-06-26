@@ -141,6 +141,7 @@ body {
     cursor: pointer;
     font-size: 16px;
     margin-left: 10px;
+    line-height: 1;
     transition: color 0.3s ease;
   }
   
