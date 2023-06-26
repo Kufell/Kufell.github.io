@@ -5,7 +5,6 @@ function toggleLanguage(lang) {
     var textPl = document.getElementById('text-pl');
   
     if (lang === 'en') {
-      console.log(lang);
       toggleEn.classList.add('active');
       togglePl.classList.remove('active');
       if (textEn) {
@@ -15,7 +14,6 @@ function toggleLanguage(lang) {
         textPl.style.display = 'none';
       }
     } else if (lang === 'pl') {
-      console.log(lang);
       togglePl.classList.add('active');
       toggleEn.classList.remove('active');
       if (textPl) {
@@ -26,5 +24,6 @@ function toggleLanguage(lang) {
       }
     }
   }
-  console.log("amfa");
+  
+  // Execute toggleLanguage function on page load to set the initial language
   toggleLanguage('en');
