@@ -202,23 +202,3 @@ body {
     outline-color: #00ff00;
     box-shadow: 0 0 10px #00ff00;
   }
-
-  .image-resolution {
-    display: inline-block;
-    vertical-align: top; /* Adjust vertical alignment as needed */
-    margin: 10px; /* Add margin between images */
-    outline: 2px solid #00ff00;
-    outline-offset: -2px;
-  }
-  
-  .image-resolution img {
-    display: block;
-    width: 300px;
-    height: 200px;
-    object-fit: cover;
-  }
-  
-  .image-resolution:hover {
-    outline-color: #00ff00;
-    box-shadow: 0 0 10px #00ff00;
-  }
