@@ -11,6 +11,9 @@ body {
     margin: 0 auto;
     padding: 20px;
   }
+  *{
+    font-family: 'Poiret One', cursive;
+  }
 
   header {
     display: flex;
