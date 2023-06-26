@@ -11,7 +11,13 @@ body {
     margin: 0 auto;
     padding: 20px;
   }
-  
+  *{
+    font-family: 'Poiret One', cursive;
+  }
+  h5{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
   header {
     display: flex;
     justify-content: space-between;
