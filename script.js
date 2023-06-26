@@ -12,3 +12,4 @@ function toggleLanguage(lang) {
     }
   }
   console.log("amfa");
+  toggleLanguage('en');
