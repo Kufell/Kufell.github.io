@@ -11,3 +11,4 @@ function toggleLanguage(lang) {
       document.getElementById('text-en').style.display = 'none';
     }
   }
+  console.log("amfa");
