@@ -5,6 +5,7 @@ function toggleLanguage(lang) {
     var textPl = document.getElementById('text-pl');
   
     if (lang === 'en') {
+      console.log(lang);
       toggleEn.classList.add('active');
       togglePl.classList.remove('active');
       if (textEn) {
@@ -14,6 +15,7 @@ function toggleLanguage(lang) {
         textPl.style.display = 'none';
       }
     } else if (lang === 'pl') {
+      console.log(lang);
       togglePl.classList.add('active');
       toggleEn.classList.remove('active');
       if (textPl) {
@@ -23,7 +25,6 @@ function toggleLanguage(lang) {
         textEn.style.display = 'none';
       }
     }
-    console.log(lang);
   }
   console.log("amfa");
   toggleLanguage('en');
