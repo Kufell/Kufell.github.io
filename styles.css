@@ -123,14 +123,8 @@ body {
   footer p {
     color: #777;
   }
-
-  .toggle-languages {
-    display: flex;
-    justify-content: flex-end;
-    margin-bottom: 20px;
-  }
   
-  .toggle-languages button {
+  li button {
     background-color: transparent;
     color: #fff;
     border: none;
@@ -142,10 +136,10 @@ body {
     transition: color 0.3s ease;
   }
   
-  .toggle-languages button.active {
+  li button.active {
     color: #0ff;
   }
   
-  .toggle-languages button:hover {
+  li button:hover {
     color: #0ff;
   }
